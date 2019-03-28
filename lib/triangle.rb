@@ -9,7 +9,9 @@ def initialize(length1, length2, length3)
 end 
 
 def valid?
-  binding.pry
+  if @length1 <=0 || @length2 <=0 || @length3 <=0 
+    false 
+   elsif 
   
 end
 
