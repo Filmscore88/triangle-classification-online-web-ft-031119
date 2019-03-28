@@ -15,10 +15,17 @@ def valid?
          @length1 + @length3 <= @length2 ||
          @length2 + @length3 <= @length1 
          false 
-         
-  
+     else 
+       true 
+     end 
+   end 
+  end 
 end
 
+def kind 
+binding.pry
+  
+end 
   
 class TriangleError < StandardError
   
