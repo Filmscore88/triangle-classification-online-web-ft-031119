@@ -8,8 +8,9 @@ def initialize(length1, length2, length3)
 end 
 
 def valid? 
+  binding.pry
   @triangle_sides.each{|side| side <=0}
- binding.pry
+ 
 end 
 
 
