@@ -7,9 +7,10 @@ def initialize(length1, length2, length3)
 @triangle_sides.push(length1, length2, length3)
 end 
 
-def valid?
-binding.pry
-end 
+def kind 
+  binding.pry
+  
+end
 
   
 class TriangleError < StandardError
