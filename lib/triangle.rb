@@ -7,9 +7,8 @@ def initialize(length1, length2, length3)
 @triangle_sides.push(length1, length2, length3)
 end 
 
-def kind 
- binding.pry
- 
+def valid?
+binding.pry
 end 
 
   
