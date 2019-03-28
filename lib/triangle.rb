@@ -8,7 +8,8 @@ def initialize(length1, length2, length3)
 end 
 
 def valid? 
- if @triangle_sides.each{|side| side <=
+ if @triangle_sides.each{|side| side <=0 
+   
 
 
   
