@@ -9,7 +9,8 @@ end
 
 def valid? 
  if @triangle_sides.each{|side| side <=0 
-   
+    false 
+   esle
 
 
   
