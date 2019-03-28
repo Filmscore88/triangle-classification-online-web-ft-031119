@@ -19,8 +19,8 @@ def valid?
        true 
      end 
    end 
-  end 
-end
+end 
+
 
 def kind 
 binding.pry
