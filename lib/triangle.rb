@@ -22,7 +22,7 @@ end
 
 
 def kind 
-
+ binding.pry
   
 end 
   
