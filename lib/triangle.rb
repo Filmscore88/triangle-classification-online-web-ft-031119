@@ -7,7 +7,8 @@ def initialize(length1, length2, length3)
 @triangle_sides.push(length1, length2, length3)
 end 
 
-
+def valid? 
+ if 
 
 
   
