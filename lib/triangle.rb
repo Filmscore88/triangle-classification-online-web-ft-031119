@@ -26,7 +26,10 @@ def kind
     raise TriangleError
     elsif @length1 == @length2 && @length2 == @length3
       :equilateral 
-      elsif @
+      elsif @length1 == @length2 || @length1 == @length3 ||
+            @length2 == @length3 
+            :iscoceles
+            
     
   
 end 
