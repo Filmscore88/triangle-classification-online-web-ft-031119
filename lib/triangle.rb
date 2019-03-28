@@ -17,8 +17,7 @@ def valid?
          false 
      else 
        true 
-     end 
-   end 
+  end 
 end 
 
 
