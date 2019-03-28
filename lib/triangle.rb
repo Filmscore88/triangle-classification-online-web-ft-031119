@@ -24,8 +24,7 @@ end
 def kind 
   if !self.valid?
     raise TriangleError
-    elsif 
-    
+    elsif @length1 == @
     
   
 end 
