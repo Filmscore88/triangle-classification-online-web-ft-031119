@@ -10,7 +10,9 @@ end
 def valid? 
  if @triangle_sides.each{|side| side <=0}
     false 
-   elsif @triangle_sides[0]
+
+    binding.pry
+end 
 
 
   
