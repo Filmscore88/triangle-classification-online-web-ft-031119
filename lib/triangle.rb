@@ -2,7 +2,8 @@ class Triangle
 attr_accessor :length2, :length2, :length3
 
 def initialize(length1, length2, length3)
-@tria
+@triangle_sides=[]
+@triangle_sides
   
   
 class TriangleError < StandardError
