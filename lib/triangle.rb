@@ -22,7 +22,11 @@ end
 
 
 def kind 
- binding.pry
+  if !self.valid?
+    raise TriangleError
+    elsif 
+    
+    
   
 end 
   
