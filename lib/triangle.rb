@@ -30,7 +30,7 @@ def kind
             @length2 == @length3 
          :isosceles
         else 
-           :scalene
+          :scalene
   end 
 end 
   
